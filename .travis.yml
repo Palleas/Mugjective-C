@@ -1,0 +1,4 @@
+language: objective-c
+xcode_project: Mugjective-C.xcodeproj
+xcode_scheme: Mugjective-C
+
