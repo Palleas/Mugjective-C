@@ -16,6 +16,7 @@
 		7A823E1C18C78E9E00370CCB /* libMugjective-C.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A823E0418C78E9E00370CCB /* libMugjective-C.a */; };
 		7A823E2218C78E9E00370CCB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7A823E2018C78E9E00370CCB /* InfoPlist.strings */; };
 		7A823E2418C78E9E00370CCB /* Mugjective_CTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A823E2318C78E9E00370CCB /* Mugjective_CTests.m */; };
+		7A823E2F18C78F1900370CCB /* NSArray+PCSMugjectiveC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A823E2E18C78F1900370CCB /* NSArray+PCSMugjectiveC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		7A823E1F18C78E9E00370CCB /* Mugjective-CTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Mugjective-CTests-Info.plist"; sourceTree = "<group>"; };
 		7A823E2118C78E9E00370CCB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7A823E2318C78E9E00370CCB /* Mugjective_CTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Mugjective_CTests.m; sourceTree = "<group>"; };
+		7A823E2D18C78F1900370CCB /* NSArray+PCSMugjectiveC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+PCSMugjectiveC.h"; sourceTree = "<group>"; };
+		7A823E2E18C78F1900370CCB /* NSArray+PCSMugjectiveC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+PCSMugjectiveC.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +116,8 @@
 				7A823E0C18C78E9E00370CCB /* Mugjective_C.h */,
 				7A823E0E18C78E9E00370CCB /* Mugjective_C.m */,
 				7A823E0A18C78E9E00370CCB /* Supporting Files */,
+				7A823E2D18C78F1900370CCB /* NSArray+PCSMugjectiveC.h */,
+				7A823E2E18C78F1900370CCB /* NSArray+PCSMugjectiveC.m */,
 			);
 			path = "Mugjective-C";
 			sourceTree = "<group>";
@@ -224,6 +229,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A823E2F18C78F1900370CCB /* NSArray+PCSMugjectiveC.m in Sources */,
 				7A823E0F18C78E9E00370CCB /* Mugjective_C.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -365,6 +371,12 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "Mugjective-CTests/Mugjective-CTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					XCTest,
+					"-all_load",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -381,6 +393,12 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Mugjective-C/Mugjective-C-Prefix.pch";
 				INFOPLIST_FILE = "Mugjective-CTests/Mugjective-CTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					XCTest,
+					"-all_load",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = xctest;
 			};

@@ -7,6 +7,7 @@
 //
 
 #import <XCTest/XCTest.h>
+#import "NSArray+PCSMugjectiveC.h"
 
 @interface Mugjective_CTests : XCTestCase
 
@@ -14,21 +15,14 @@
 
 @implementation Mugjective_CTests
 
-- (void)setUp
-{
-    [super setUp];
-    // Put setup code here. This method is called before the invocation of each test method in the class.
+
+- (void)testEmptyArrayLooksLikeAMug {
+    XCTAssertTrue([@[] pcs_looksLikeAMug], @"Empty array should look like a mug");
 }
 
-- (void)tearDown
-{
-    // Put teardown code here. This method is called after the invocation of each test method in the class.
-    [super tearDown];
+- (void)testNonEmptyArrayDoesNotLookLikeAMug {
+    XCTAssertFalse([@[@"Something-ruining-the-joke"] pcs_looksLikeAMug], @"Non-empty array should not look like a mug");
 }
 
-- (void)testExample
-{
-    XCTFail(@"No implementation for \"%s\"", __PRETTY_FUNCTION__);
-}
 
 @end
