@@ -1,5 +1,7 @@
 # Mugjective-C : because empty array litterals look like mugs
 
+Special thanks to [notjosh](https://github.com/notjosh) for the name.
+
 ## Installation
 
 1. Drop the `NSArray+PCSMugjectiveC.h` and `NSArray+PCSMugjectiveC.m` files into your project.
