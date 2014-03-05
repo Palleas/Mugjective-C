@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7A823E0818C78E9E00370CCB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A823E0718C78E9E00370CCB /* Foundation.framework */; };
+		7A823E0D18C78E9E00370CCB /* Mugjective_C.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7A823E0C18C78E9E00370CCB /* Mugjective_C.h */; };
+		7A823E0F18C78E9E00370CCB /* Mugjective_C.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A823E0E18C78E9E00370CCB /* Mugjective_C.m */; };
+		7A823E1618C78E9E00370CCB /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A823E1518C78E9E00370CCB /* XCTest.framework */; };
+		7A823E1718C78E9E00370CCB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A823E0718C78E9E00370CCB /* Foundation.framework */; };
+		7A823E1918C78E9E00370CCB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A823E1818C78E9E00370CCB /* UIKit.framework */; };
+		7A823E1C18C78E9E00370CCB /* libMugjective-C.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A823E0418C78E9E00370CCB /* libMugjective-C.a */; };
+		7A823E2218C78E9E00370CCB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7A823E2018C78E9E00370CCB /* InfoPlist.strings */; };
+		7A823E2418C78E9E00370CCB /* Mugjective_CTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A823E2318C78E9E00370CCB /* Mugjective_CTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7A823E1A18C78E9E00370CCB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A823DFC18C78E9E00370CCB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A823E0318C78E9E00370CCB;
+			remoteInfo = "Mugjective-C";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7A823E0218C78E9E00370CCB /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				7A823E0D18C78E9E00370CCB /* Mugjective_C.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7A823E0418C78E9E00370CCB /* libMugjective-C.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libMugjective-C.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A823E0718C78E9E00370CCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7A823E0B18C78E9E00370CCB /* Mugjective-C-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Mugjective-C-Prefix.pch"; sourceTree = "<group>"; };
+		7A823E0C18C78E9E00370CCB /* Mugjective_C.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Mugjective_C.h; sourceTree = "<group>"; };
+		7A823E0E18C78E9E00370CCB /* Mugjective_C.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Mugjective_C.m; sourceTree = "<group>"; };
+		7A823E1418C78E9E00370CCB /* Mugjective-CTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mugjective-CTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A823E1518C78E9E00370CCB /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		7A823E1818C78E9E00370CCB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		7A823E1F18C78E9E00370CCB /* Mugjective-CTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Mugjective-CTests-Info.plist"; sourceTree = "<group>"; };
+		7A823E2118C78E9E00370CCB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7A823E2318C78E9E00370CCB /* Mugjective_CTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Mugjective_CTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7A823E0118C78E9E00370CCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A823E0818C78E9E00370CCB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A823E1118C78E9E00370CCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A823E1618C78E9E00370CCB /* XCTest.framework in Frameworks */,
+				7A823E1918C78E9E00370CCB /* UIKit.framework in Frameworks */,
+				7A823E1C18C78E9E00370CCB /* libMugjective-C.a in Frameworks */,
+				7A823E1718C78E9E00370CCB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7A823DFB18C78E9E00370CCB = {
+			isa = PBXGroup;
+			children = (
+				7A823E0918C78E9E00370CCB /* Mugjective-C */,
+				7A823E1D18C78E9E00370CCB /* Mugjective-CTests */,
+				7A823E0618C78E9E00370CCB /* Frameworks */,
+				7A823E0518C78E9E00370CCB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7A823E0518C78E9E00370CCB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7A823E0418C78E9E00370CCB /* libMugjective-C.a */,
+				7A823E1418C78E9E00370CCB /* Mugjective-CTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7A823E0618C78E9E00370CCB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7A823E0718C78E9E00370CCB /* Foundation.framework */,
+				7A823E1518C78E9E00370CCB /* XCTest.framework */,
+				7A823E1818C78E9E00370CCB /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7A823E0918C78E9E00370CCB /* Mugjective-C */ = {
+			isa = PBXGroup;
+			children = (
+				7A823E0C18C78E9E00370CCB /* Mugjective_C.h */,
+				7A823E0E18C78E9E00370CCB /* Mugjective_C.m */,
+				7A823E0A18C78E9E00370CCB /* Supporting Files */,
+			);
+			path = "Mugjective-C";
+			sourceTree = "<group>";
+		};
+		7A823E0A18C78E9E00370CCB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7A823E0B18C78E9E00370CCB /* Mugjective-C-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7A823E1D18C78E9E00370CCB /* Mugjective-CTests */ = {
+			isa = PBXGroup;
+			children = (
+				7A823E2318C78E9E00370CCB /* Mugjective_CTests.m */,
+				7A823E1E18C78E9E00370CCB /* Supporting Files */,
+			);
+			path = "Mugjective-CTests";
+			sourceTree = "<group>";
+		};
+		7A823E1E18C78E9E00370CCB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7A823E1F18C78E9E00370CCB /* Mugjective-CTests-Info.plist */,
+				7A823E2018C78E9E00370CCB /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7A823E0318C78E9E00370CCB /* Mugjective-C */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A823E2718C78E9E00370CCB /* Build configuration list for PBXNativeTarget "Mugjective-C" */;
+			buildPhases = (
+				7A823E0018C78E9E00370CCB /* Sources */,
+				7A823E0118C78E9E00370CCB /* Frameworks */,
+				7A823E0218C78E9E00370CCB /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mugjective-C";
+			productName = "Mugjective-C";
+			productReference = 7A823E0418C78E9E00370CCB /* libMugjective-C.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		7A823E1318C78E9E00370CCB /* Mugjective-CTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A823E2A18C78E9E00370CCB /* Build configuration list for PBXNativeTarget "Mugjective-CTests" */;
+			buildPhases = (
+				7A823E1018C78E9E00370CCB /* Sources */,
+				7A823E1118C78E9E00370CCB /* Frameworks */,
+				7A823E1218C78E9E00370CCB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7A823E1B18C78E9E00370CCB /* PBXTargetDependency */,
+			);
+			name = "Mugjective-CTests";
+			productName = "Mugjective-CTests";
+			productReference = 7A823E1418C78E9E00370CCB /* Mugjective-CTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7A823DFC18C78E9E00370CCB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Perfectly-Cooked";
+			};
+			buildConfigurationList = 7A823DFF18C78E9E00370CCB /* Build configuration list for PBXProject "Mugjective-C" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7A823DFB18C78E9E00370CCB;
+			productRefGroup = 7A823E0518C78E9E00370CCB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7A823E0318C78E9E00370CCB /* Mugjective-C */,
+				7A823E1318C78E9E00370CCB /* Mugjective-CTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7A823E1218C78E9E00370CCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A823E2218C78E9E00370CCB /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7A823E0018C78E9E00370CCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A823E0F18C78E9E00370CCB /* Mugjective_C.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A823E1018C78E9E00370CCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A823E2418C78E9E00370CCB /* Mugjective_CTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7A823E1B18C78E9E00370CCB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7A823E0318C78E9E00370CCB /* Mugjective-C */;
+			targetProxy = 7A823E1A18C78E9E00370CCB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7A823E2018C78E9E00370CCB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A823E2118C78E9E00370CCB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7A823E2518C78E9E00370CCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7A823E2618C78E9E00370CCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7A823E2818C78E9E00370CCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/Mugjective_C.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mugjective-C/Mugjective-C-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		7A823E2918C78E9E00370CCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/Mugjective_C.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mugjective-C/Mugjective-C-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		7A823E2B18C78E9E00370CCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mugjective-C/Mugjective-C-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Mugjective-CTests/Mugjective-CTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		7A823E2C18C78E9E00370CCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mugjective-C/Mugjective-C-Prefix.pch";
+				INFOPLIST_FILE = "Mugjective-CTests/Mugjective-CTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7A823DFF18C78E9E00370CCB /* Build configuration list for PBXProject "Mugjective-C" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A823E2518C78E9E00370CCB /* Debug */,
+				7A823E2618C78E9E00370CCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A823E2718C78E9E00370CCB /* Build configuration list for PBXNativeTarget "Mugjective-C" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A823E2818C78E9E00370CCB /* Debug */,
+				7A823E2918C78E9E00370CCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7A823E2A18C78E9E00370CCB /* Build configuration list for PBXNativeTarget "Mugjective-CTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A823E2B18C78E9E00370CCB /* Debug */,
+				7A823E2C18C78E9E00370CCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7A823DFC18C78E9E00370CCB /* Project object */;
+}
