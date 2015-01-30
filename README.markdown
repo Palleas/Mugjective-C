@@ -1,4 +1,4 @@
-# Mugjective-C : because empty array litterals look like mugs
+# Mugjective-C : because empty array literals look like mugs
 
 Special thanks to [notjosh](https://github.com/notjosh) for the name.
 
